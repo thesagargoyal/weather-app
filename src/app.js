@@ -4,7 +4,6 @@ const port = 3000;
 const path = require('path');
 
 const static_path = path.join(__dirname, "../public");
-np
 app.use(express.static(static_path));
 
 app.set('view engine', 'hbs');
